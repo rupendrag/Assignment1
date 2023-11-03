@@ -22,9 +22,9 @@ student = Student()
 
 try:
     name = input("Enter Students name ")
-    student.setName("Rupendra")
-    roll_number=input("Enter Roll number")
-    student.setRollNumber("123456")
+    student.setName(name)
+    roll_number = input("Enter Roll number")
+    student.setRollNumber(roll_number)
 
     print(f"Name: {student.getName()}")
     print(f"Roll Number: {student.getRollNumber()}")
